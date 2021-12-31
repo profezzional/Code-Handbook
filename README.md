@@ -127,7 +127,7 @@ Whenever possible, initialize values when they're declared, rather than later. T
 
 ## TypeScript/JavaScript
 ### General
-If unfamiliar with TypeScript, reading the [official documentation](https://www.typescriptlang.org/docs/) in its entirety is highly recommended. While lengthy, it will help tremendously with wrangling syntactic sugar that may otherwise look strange if you're coming from JS, as well as help understand the nuances of the terms used in this section.
+If you're unfamiliar or not super confident with TypeScript, reading the [official documentation](https://www.typescriptlang.org/docs/) in its entirety is highly recommended. While lengthy, it will help tremendously with wrangling syntactic sugar that may otherwise look strange if you're coming from JS, as well as help understand the nuances of the terms used in this section.
 
 ### Semicolons
 Semicolons, while technically optional, should always be used, for two reasons.
@@ -196,12 +196,12 @@ Return, variable, and parameter types should always be specified in TypeScript. 
 ## Visual Studio
 ### Useful Extensions
 #### Side Scroll
-Default Windows behavior allows for scrolling horizontally with the mouse wheel simply by holding shift. This isn't natively supported in Visual Studio for some reason, but there are extensions that enable it. There are different extensions for different versions, but in those extensions, the other features (like any smooth scrolling) can be disruptive for coding, so they can be disabled, leaving only the shift-scroll.
+Default Windows behavior allows for scrolling horizontally with the mouse wheel simply by holding shift, which is much faster than dragging a scollbar that may be hard to click. Shift-scroll isn't natively supported in Visual Studio for some reason, but there are extensions that enable it. There are different extensions for different versions of VS, but in those extensions, the other features (like any smooth scrolling) can be disruptive for coding, so they can be disabled, leaving only the shift-scroll.
 
 ### Shortcuts
-A good programmer should always be looking for new keyboard shortcuts to avoid using the mouse. While going full Vim and keyboard-only isn't recommended, it's easy to make your workflow more optimal with a few handy keyboard shortcuts.
+A good programmer should always be looking for new keyboard shortcuts to avoid using the mouse. While going full Vim and keyboard-only isn't necessarily recommended, it's easy to make your workflow more optimal with a few handy keyboard shortcuts.
 
-You can (and should) Google the full list, but there are a few that you should be using frequently:
+You can (and should) Google the full list for your editor of choice, but there are a few in Visual Studio that you should be using frequently:
 - Auto-format: `ctrl+k+d` (this should become constant habit)
 - Quick refactoring: `ctrl+.` or `alt+enter`
 - Remove unused and sort imports/usings: `ctrl+r+g`
