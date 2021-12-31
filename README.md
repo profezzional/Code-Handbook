@@ -194,24 +194,31 @@ Return, variable, and parameter types should always be specified in TypeScript. 
 
 # Editors
 ## Visual Studio
-    extensions (side scroll)
-    JS debugging
-    shortcuts (rebinds and useful)
-        ctrl:
-            - KD
-            - KC -> /
-            - RG
-            - click
-            - f12
-            - RR
-            - F, H (shift)
-                - regex, case-sensitive
-            - . (quick refactor)
-    auto-linting (prettier?)?
-## VS Code
-    general usage
+### Useful Extensions
+#### Side Scroll
+Default Windows behavior allows for scrolling horizontally with the mouse wheel simply by holding shift. This isn't natively supported in Visual Studio for some reason, but there are extensions that enable it. There are different extensions for different versions, but in those extensions, the other features (like any smooth scrolling) can be disruptive for coding, so they can be disabled, leaving only the shift-scroll.
+
+### Shortcuts
+A good programmer should always be looking for new keyboard shortcuts to avoid using the mouse. While going full Vim and keyboard-only isn't recommended, it's easy to make your workflow more optimal with a few handy keyboard shortcuts.
+
+You can (and should) Google the full list, but there are a few that you should be using frequently:
+- Auto-format: `ctrl+k+d` (this should become constant habit)
+- Quick refactoring: `ctrl+.` or `alt+enter`
+- Remove unused and sort imports/usings: `ctrl+r+g`
+- Rename symbol: `ctrl+r+r`
+- Go to definition: `F12` or `ctrl+click`
+- Go to implementation : `ctrl+F12`
+- Move line(s): `alt+down/up`
+- Comment: `ctrl+k+c` (easier if rebound to `ctrl+/`)
+- Uncomment: `ctrl+shift+k+c` (easier if rebound to `ctrl+shift+/`)
+
+### Helpful Features
+#### JavaScript Debugging
+
+## VSCode
+VSCode makes for a handy system-default text editor, being almost instant to start up, showing line numbers, easy settings, etc. It's often helpful to edit VS solution or project files, without confusing VS.
 ## SSMS
-    dark theme
+SSMS sort of has a dark theme, though it doesn't work in the sidebar. It's disabled by default, but a quick setting uncomment in a config file re-enables the option in the preferences: https://www.sqlshack.com/setting-up-the-dark-theme-in-sql-server-management-studio/
 
 # Git
     commit messages
